@@ -8,8 +8,8 @@
 # Objetivo do Projeto
 Este projeto tem como objetivo implementar um aplicativo Flutter que realiza autenticação de usuários utilizando o provedor de autenticação Google via Firebase. O app oferece uma interface simples com login, exibição de informações do usuário autenticado e logout, alinhado aos requisitos técnicos e funcionais de uma atividade avaliativa acadêmica.
 
-![app_2](https://github.com/user-attachments/assets/63fd7a0a-4641-41eb-a7be-631f5cd01a90)
-![app_1](https://github.com/user-attachments/assets/d9c73df4-aaee-4890-8700-f23ae774ecba)
+![app_2](https://github.com/user-attachments/assets/05bde36d-26cc-4fc1-8dad-c4e58c84e1fa)
+![app_1](https://github.com/user-attachments/assets/b68663a3-17cc-4037-8241-b69fd12a6dba)
 
 ## Funcionalidades do Aplicativo
 **Tela de Login**
