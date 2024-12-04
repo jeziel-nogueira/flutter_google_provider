@@ -87,13 +87,13 @@ Abaixo estão algumas capturas de tela mostrando o funcionamento do aplicativo:
 
 
 #
+## Autor
+
+Desenvolvido com 💻 por [Jeziel Nogueira](https://github.com/jeziel-nogueira).
+
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](https://www.mit.edu/~amini/LICENSE.md) para mais detalhes.
 
 ---
-
-## Autor
-
-Desenvolvido com 💻 por [Jeziel Nogueira](https://github.com/jeziel-nogueira).
 
