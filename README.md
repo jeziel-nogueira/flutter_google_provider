@@ -8,8 +8,12 @@
 # Objetivo do Projeto
 Este projeto tem como objetivo implementar um aplicativo Flutter que realiza autenticação de usuários utilizando o provedor de autenticação Google via Firebase. O app oferece uma interface simples com login, exibição de informações do usuário autenticado e logout, alinhado aos requisitos técnicos e funcionais de uma atividade avaliativa acadêmica.
 
-![app_2](https://github.com/user-attachments/assets/05bde36d-26cc-4fc1-8dad-c4e58c84e1fa)
-![app_1](https://github.com/user-attachments/assets/b68663a3-17cc-4037-8241-b69fd12a6dba)
+## Prévia do Aplicativo
+Abaixo estão algumas capturas de tela mostrando o funcionamento do aplicativo:
+
+| Tela de Login             | Tela Home               |
+|---------------------------|-------------------------|
+| ![app_2](https://github.com/user-attachments/assets/05bde36d-26cc-4fc1-8dad-c4e58c84e1fa) | ![app_1](https://github.com/user-attachments/assets/b68663a3-17cc-4037-8241-b69fd12a6dba) |
 
 ## Funcionalidades do Aplicativo
 **Tela de Login**
@@ -61,15 +65,10 @@ Este projeto tem como objetivo implementar um aplicativo Flutter que realiza aut
 ## Instruções de Configuração do projeto
 ### Pré-requisitos:
   - Flutter SDK: versão 3.24.3 ou superior
-  - Dart SDK: versão X.X.X
+  - Dart SDK: versão 3.5.3 ou superior
 
-### Configuração Firebase:
+### Configuração:
   - Crie um novo projeto Android com Flutter.
-  - Adicione o Firebase ao projeto para Android, [referência](https://firebase.google.com/docs/android).
-  - Configure a autenticação Google do app, [referência](https://firebase.google.com/docs/auth/android/google-signin).
-  - Lembre de baixar o arquivo google-services.json do seu provedor configurado e adicionar na pasta android/app.
-
-### Executar o projeto:
   - Clone o repositório:
     ```
     git clone https://github.com/jeziel-nogueira/flutter_google_provider.git
@@ -78,7 +77,23 @@ Este projeto tem como objetivo implementar um aplicativo Flutter que realiza aut
     ```
     flutter pub get
     ```
+  - Adicione o Firebase ao projeto para Android, [referência](https://firebase.google.com/docs/android).
+  - Configure a autenticação Google do app, [referência](https://firebase.google.com/docs/auth/android/google-signin).
+  - Lembre de baixar o arquivo google-services.json do seu provedor configurado e adicionar na pasta android/app.
   - Execute o aplicativo:
     ```
     flutter run
-    ```    
+    ```
+
+
+#
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](https://www.mit.edu/~amini/LICENSE.md) para mais detalhes.
+
+---
+
+## Autor
+
+Desenvolvido com 💻 por [Jeziel Nogueira](https://github.com/jeziel-nogueira).
+
