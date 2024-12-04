@@ -28,14 +28,20 @@ Abaixo estão algumas capturas de tela mostrando o funcionamento do aplicativo:
      - Foto de perfil
    - Botão para desconectar o usuário e retornar para a tela de login.
 
-## Erros Tratados
-   Em caso de erro de alguma funcionalidade, possui os seguintes tratamentos:
-   - 'account-exists-with-different-credential': A conta já existe com outro método de autenticação.
-   - 'invalid-credential': Credencial inválida ou expirada.
-   - 'user-disabled': Conta desativada.
-   - 'operation-not-allowed': O provedor Google não está habilitado no Firebase Console.
-   - 'network-request-failed': Problema de conexão de rede.
-   - default: para outros erros inesperados
+## Tratamento de Erros
+
+O projeto implementa tratamentos para erros comuns encontrados durante o processo de autenticação, abordando tanto os erros detalhados do Firebase quanto os erros genéricos do **Google Sign-In**, que trata erros de forma implícita durante o fluxo de autenticação, podendo retornar erros genéricos ou nulo, e não fornece códigos de erro específicos.
+
+   Os seguintes casos de erros são identificados e tratados no aplicativo:
+   
+   | Código de Erro                         | Mensagem Exibida ao Usuário                               |
+   |----------------------------------------|---------------------------------------------------------|
+   | **`account-exists-with-different-credential`** | "A conta já existe com outro método de autenticação." |
+   | **`invalid-credential`**               | "Credencial inválida ou expirada."     |
+   | **`user-disabled`**                    | "Sua conta foi desativada."          |
+   | **`operation-not-allowed`**            | "Autenticação Google não está habilitada no sistema."   |
+   | **`network-request-failed`**           | "Problema de conexão de internet."          |
+   | **`default`**                          | "Ocorreu um erro inesperado." |
 
 ## Dependências utilizadas
   - firebase_core: ^3.8.0
